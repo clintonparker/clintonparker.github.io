@@ -1,5 +1,5 @@
 title: "Clinton Parker"
-author: "Blog Author"
+author: "Clinton Parker"
 description: "Nazarbayev University"
 permalink: /:title/
 lang: "en"
@@ -16,7 +16,7 @@ minimal: false             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "index.html"}
+  - {file: "index.html", title: "About me"}
   - {file: "README.md"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
