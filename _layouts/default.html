@@ -27,13 +27,16 @@
   {% assign pages = site.pages | where_exp: "item", "item.title and item.sitemap != false" | sort: "order" %}
 {% endif %}
 
-<header>
+<header style="display: flex; justify-content: space-between; align-items: center;">
   <div>
     <a href="{{ "/" | relative_url }}" class="title">{{ site.title | escape }}</a>
-    <p class="subtitle">{{ site.subtitle }}</p>
+    <p class="subtitle" style="font-size: small; margin: 0; line-height: 1.2;">{{ site.subtitle }}</p>
   </div>
-  {% include menu.html menu=pages %}
+  <nav>
+    {% include menu.html menu=pages %}
+  </nav>
 </header>
+
 
 
 
