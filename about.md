@@ -11,5 +11,3 @@ permalink: /about/
 
   {{ "Somewhere along the way, I got interested in languages, and this has shaped and continues to shape a lot of what I do today. I do linguistics, but I also learn languages. (These are different things, as it turns out.)" | markdownify }}
 </div>
-
-</div>
