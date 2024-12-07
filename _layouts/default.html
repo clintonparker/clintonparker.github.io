@@ -21,25 +21,22 @@
 {% if site.comments.isso_domain and page.layout == "post" %}<script data-isso="http://{{ site.comments.isso_domain }}" src="//{{ site.comments.isso_domain }}/js/embed.min.js"></script>{% endif %}
 {% if site.show_sidebar or site.sidebar %}{% include sidebar.html %}{% endif %}
 
-{% if site.navigation %}
-  {% assign pages = site.navigation %}
-{% else %}
-  {% assign pages = site.pages | where_exp: "item", "item.title and item.sitemap != false" | sort: "order" %}
-{% endif %}
-
 <header style="display: flex; justify-content: space-between; align-items: center;">
   <div>
     <a href="{{ "/" | relative_url }}" class="title">{{ site.title | escape }}</a>
     <p class="subtitle" style="font-size: small; margin: 0; line-height: 1.2;">{{ site.subtitle }}</p>
   </div>
+  <!-- Updated navigation -->
   <nav>
-    {% include menu.html menu=pages %}
+    <button class="menu-toggle" aria-label="Toggle menu">&#9776;</button>
+    <ul class="menu-items">
+      <li><a href="/">Home</a></li>
+      <li><a href="/about/">About</a></li>
+      <li><a href="/projects/">Projects</a></li>
+      <li><a href="/contact/">Contact</a></li>
+    </ul>
   </nav>
 </header>
-
-
-
-
 
 {{ content }}
 
