@@ -31,9 +31,11 @@ permalink: /projects/
   - ***Genetic relations between Yazghulami and the Shughni Group*** (Sokolova 1967) &ndash; [translation](https://clintonparker.github.io/assets/translations/Sokolova_1967_En.pdf) / [original Russian](https://clintonparker.github.io/assets/translations/Sokolova_1967_Russ.pdf)
     " | markdownify }}
 
-    {{## "McGill Symposium on the University’s Role in Supporting Indigenous Languages" | markdownify }}
+    {{"## McGill Symposium on the University’s Role in Supporting Indigenous Languages" | markdownify }}
 
     {{ "This event brought together Indigenous language champions from all over Canada to share their knowledge and experiences with McGill. I was fortunate enough to be a member of the organizing team and to lead the process of writing our task force’s [_Vision Paper_](https://clintonparker.github.io/assets/visionPaper.pdf), which outlines the lessons we learned. I’m proud to say that the university, including the Department of Linguistics, has already taken important steps in implementing these lessons. You can read more about the Symposium [here](https://www.mcgill.ca/dise/mcgill-supporting-indigenous-languages052018), and you can find a manuscript of my qualifying paper on this topic [here](https://clintonparker.github.io/assets/qualifyingPaper.pdf)." | markdownify }}
+
+    {{"## Easy Miskito" | markdownify }}
     
 </div>
 
