@@ -24,11 +24,11 @@ permalink: /projects/
   {{ "
   - ***The Shughni verb in a historical light*** (Dodykhudoeva 1988) &ndash; [translation](https://clintonparker.github.io/assets/translations/Dodykhudoeva_1988_En.pdf) / [original Russian](https://clintonparker.github.io/assets/translations/Dodykhudoeva_1988_Russ.pdf)
   - ***On clausal constructions in Iranian languages*** (Edelman 1974) &ndash; [translation](https://clintonparker.github.io/assets/translations/Edelman_1974_En.pdf) / [original Russian](https://clintonparker.github.io/assets/translations/Edelman_1974_Russ.pdf)
-  - ***On the substratal heritage of the Central Asian Sprachbund*** (Edelman 1980) 
-  - ***The category of gender in the Pamir languages, Part I*** (Karamshoev 1978)
-  - ***The category of gender in the Pamir languages, Part II*** (Karamshoev 1986)
-  - ***Sketches of the phonetic systems of Iranian languages*** (Sokolova 1953)
-  - ***Genetic relations between Yazghulami and the Shughni Group*** (Sokolova 1967)
+  - ***On the substratal heritage of the Central Asian Sprachbund*** (Edelman 1980) &ndash; [translation](https://clintonparker.github.io/assets/translations/Edelman_1980_En.pdf) / [original Russian](https://clintonparker.github.io/assets/translations/Edelman_1980_Russ.pdf)
+  - ***The category of gender in the Pamir languages, Part I*** (Karamshoev 1978) &ndash; [translation](https://clintonparker.github.io/assets/translations/Karamshoev_1978_En.pdf) / [original Russian](https://clintonparker.github.io/assets/translations/Karamshoev_1978_Russ.pdf)
+  - ***The category of gender in the Pamir languages, Part II*** (Karamshoev 1986) &ndash; [translation](https://clintonparker.github.io/assets/translations/Karamshoev_1986_En.pdf) / [original Russian](https://clintonparker.github.io/assets/translations/Karamshoev_1986_Russ_.pdf)
+  - ***Sketches of the phonetic systems of Iranian languages*** (Sokolova 1953) &ndash; [translation](https://clintonparker.github.io/assets/translations/Sokolova_1953_En.pdf) / [original Russian](https://clintonparker.github.io/assets/translations/Sokolova_1953_Russ.pdf)
+  - ***Genetic relations between Yazghulami and the Shughni Group*** (Sokolova 1967) &ndash; [translation](https://clintonparker.github.io/assets/translations/Sokolova_1967_En.pdf) / [original Russian](https://clintonparker.github.io/assets/translations/Sokolova_1967_Russ.pdf)
     " | markdownify }}
     
 </div>
