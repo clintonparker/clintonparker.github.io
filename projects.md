@@ -17,7 +17,7 @@ permalink: /projects/
 
   {{ "A significant portion of my research in linguistics has focused on the syntax of Shughni, including vestigial ergativity. In a 2020 [paper](https://clintonparker.github.io/assets/Glossa.pdf) in _Glossa_, I linked this phenomenon to the nature of the second-position clitics which exhibit agreement with subjects in the past tense. While I’m still interested in morphosyntactic alignment, my work has currently shifted toward language documentation and experimental approaches to exploring grammatical gender in the Pamir languages." | markdownify }}
 
-    {{ "## Translations of Soviet-era works on Pamir languages" | markdownify }}
+  {{ "## Translations of Soviet-era works on Pamir languages" | markdownify }}
 
   {{ "One of the primary aims of my thesis on Shughni was to synthesize and build upon existing research on Shughni, the majority of which comes from the Soviet period and is available only in Russian or Tajik.  As part of an ongoing effort to connect scholars of the Pamir languages from around the world, I am working to provide English translations of some of the major works on these languages.  These translations not only make the work available in English, but also provide a searchable PDF format.  The first several translations can be found below:" | markdownify }}
 
@@ -30,6 +30,10 @@ permalink: /projects/
   - ***Sketches of the phonetic systems of Iranian languages*** (Sokolova 1953) &ndash; [translation](https://clintonparker.github.io/assets/translations/Sokolova_1953_En.pdf) / [original Russian](https://clintonparker.github.io/assets/translations/Sokolova_1953_Russ.pdf)
   - ***Genetic relations between Yazghulami and the Shughni Group*** (Sokolova 1967) &ndash; [translation](https://clintonparker.github.io/assets/translations/Sokolova_1967_En.pdf) / [original Russian](https://clintonparker.github.io/assets/translations/Sokolova_1967_Russ.pdf)
     " | markdownify }}
+
+    {{## "McGill Symposium on the University’s Role in Supporting Indigenous Languages" | markdownify }}
+
+    {{ "This event brought together Indigenous language champions from all over Canada to share their knowledge and experiences with McGill. I was fortunate enough to be a member of the organizing team and to lead the process of writing our task force’s Vision Paper, which outlines the lessons we learned. I’m proud to say that the university, including the Department of Linguistics, has already taken important steps in implementing these lessons. You can read more about the Symposium [here](https://www.mcgill.ca/dise/mcgill-supporting-indigenous-languages052018), and you can find a manuscript of my qualifying paper on this topic here." | markdownify }}
     
 </div>
 
