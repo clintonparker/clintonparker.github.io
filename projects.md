@@ -8,7 +8,7 @@ permalink: /projects/
   {{ "# Projects" | markdownify }}
 
   <img src="https://clintonparker.github.io/assets/images/frog.jpg" alt="Frog" class="about-photo">
-  {{ "My Ph.D. dissertation provides a comprehensive description of several aspects of the Shughni language (Eastern Iranian; Afghanistan and Tajikistan), from phonetics, phonology, and orthography, to nominal and verbal morphology, morphosyntactic alignment, clausal typology, information structure, and clause-level word order.  This dissertation is the outcome of seven years of fieldwork with many native speakers of Shughni, to whom I am eternally grateful for their unwavering support and friendship." | markdownify }}
+  {{ "My Ph.D. [dissertation](https:\\clintonparker.github.io/assets/Thesis.pdf) provides a comprehensive description of several aspects of the Shughni language (Eastern Iranian; Afghanistan and Tajikistan), from phonetics, phonology, and orthography, to nominal and verbal morphology, morphosyntactic alignment, clausal typology, information structure, and clause-level word order.  This dissertation is the outcome of seven years of fieldwork with many native speakers of Shughni, to whom I am eternally grateful for their unwavering support and friendship." | markdownify }}
 
   {{ "In linguistics, I most enjoy working with speakers of minority and understudied languages, looking at nuances in a language’s grammar which tend to go unnoticed. I’m also concerned with understanding the role of linguists – who often, like me, are outsiders in the communities where they work – in documenting, reclaiming, and/or revitalizing minority languages." | markdownify }}
 
