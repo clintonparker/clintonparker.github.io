@@ -15,7 +15,7 @@ permalink: /projects/
 
     {{ "## Vestigial ergativity in Shughni" | markdownify }}
 
-  {{ "A significant portion of my research in linguistics has focused on the syntax of Shughni, including vestigial ergativity. In a 2020 paper in _Glossa_, I linked this phenomenon to the nature of the second-position clitics which exhibit agreement with subjects in the past tense. While I’m still interested in morphosyntactic alignment, my work has currently shifted toward language documentation and experimental approaches to exploring grammatical gender in the Pamir languages." | markdownify }}
+  {{ "A significant portion of my research in linguistics has focused on the syntax of Shughni, including vestigial ergativity. In a 2020 [paper](https://clintonparker.github.io/assets/Glossa.pdf) in _Glossa_, I linked this phenomenon to the nature of the second-position clitics which exhibit agreement with subjects in the past tense. While I’m still interested in morphosyntactic alignment, my work has currently shifted toward language documentation and experimental approaches to exploring grammatical gender in the Pamir languages." | markdownify }}
 
 </div>
 
