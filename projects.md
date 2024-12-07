@@ -17,5 +17,9 @@ permalink: /projects/
 
   {{ "A significant portion of my research in linguistics has focused on the syntax of Shughni, including vestigial ergativity. In a 2020 [paper](https://clintonparker.github.io/assets/Glossa.pdf) in _Glossa_, I linked this phenomenon to the nature of the second-position clitics which exhibit agreement with subjects in the past tense. While I’m still interested in morphosyntactic alignment, my work has currently shifted toward language documentation and experimental approaches to exploring grammatical gender in the Pamir languages." | markdownify }}
 
+    {{ "## Translations of Soviet-era works on Pamir languages" | markdownify }}
+
+  {{ "One of the primary aims of my thesis on Shughni was to synthesize and build upon existing research on Shughni, the majority of which comes from the Soviet period and is available only in Russian or Tajik.  As part of an ongoing effort to connect scholars of the Pamir languages from around the world, I am working to provide English translations of some of the major works on these languages.  These translations not only make the work available in English, but also provide a searchable PDF format.  The first several translations can be found below:" | markdownify }}
+
 </div>
 
