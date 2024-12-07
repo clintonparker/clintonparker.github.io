@@ -13,6 +13,9 @@ permalink: /projects/
   
   {{ "My Ph.D. [dissertation](https://clintonparker.github.io/assets/Thesis.pdf) provides a comprehensive description of several aspects of the Shughni language (Eastern Iranian; Afghanistan and Tajikistan), from phonetics, phonology, and orthography, to nominal and verbal morphology, morphosyntactic alignment, clausal typology, information structure, and clause-level word order.  This dissertation is the outcome of seven years of fieldwork with many native speakers of Shughni, to whom I am eternally grateful for their unwavering support and friendship." | markdownify }}
 
-  {{ "When it comes to language learning, I admit that I may be a typical linguist in speaking several languages poorly. But there are some languages where I can hold my own. And in any case, I truly enjoy the process of learning a language and the intellectual and personal growth it demands. [Here](https://www.youtube.com/watch?v=3tNsOxLkBHw) is a video of me speaking a few of the languages that I embarrass myself the least in." | markdownify }}
+    {{ "## Vestigial ergativity in Shughni" | markdownify }}
+
+  {{ "A significant portion of my research in linguistics has focused on the syntax of Shughni, including vestigial ergativity. In a 2020 paper in _Glossa_, I linked this phenomenon to the nature of the second-position clitics which exhibit agreement with subjects in the past tense. While I’m still interested in morphosyntactic alignment, my work has currently shifted toward language documentation and experimental approaches to exploring grammatical gender in the Pamir languages." | markdownify }}
+
 </div>
 
