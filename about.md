@@ -8,7 +8,7 @@ permalink: /about/
   {{ "# About me" | markdownify }}
 
   <div class="about-me-layout">
-    <img src="assets/images/mohawk.jpg" alt="Lac Mohawk" class="about-photo">
+    <img src="assets/images/lacmohawk.jpg" alt="Lac Mohawk" class="about-photo">
     {{ "I am a native of Kentucky, where I grew up doing your stereotypical Kentucky things: roaming around fields of bluegrass, riding horses from time to time, attaching unreasonable emotion to the outcome of basketball games, and, most importantly, eating fried chicken." | markdownify }}
   </div>
 
