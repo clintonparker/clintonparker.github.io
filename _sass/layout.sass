@@ -16,7 +16,7 @@ body > header, body > article, body > footer
 
 body h2, body h3
   margin-top: 20px
-  
+
 article header
   margin-bottom: 1.5em
 
@@ -30,20 +30,20 @@ nav
 nav a
   margin: .5em 1.2em
 
-@media (max-width: 768px) /* Targets devices with a screen width of 768px or less */
-nav
-  display: flex /* Ensures flexible layout */
-  flex-direction: column /* Stacks items vertically */
-  gap: 10px /* Adds space between items */
-  align-items: center /* Centers the menu in the viewport */
+/* Media query for mobile devices */
+@media (max-width: 768px)
+  nav
+    display: flex /* Ensures flexible layout */
+    flex-direction: column /* Stacks items vertically */
+    gap: 10px /* Adds space between items */
+    align-items: center /* Centers the menu in the viewport */
 
- nav a
-  display: block /* Makes each menu item appear on a new line */
-  padding: 10px 0 /* Adds space between menu items */
-  text-align: center /* Centers the text for better readability */
-  font-size: 1.2em /* Increase font size for readability */
-  line-height: 1.5 /* Adjust line height for better spacing */
-
+  nav a
+    display: block /* Makes each menu item appear on a new line */
+    padding: 10px 0 /* Adds space between menu items */
+    text-align: center /* Centers the text for better readability */
+    font-size: 1.2em /* Increase font size for readability */
+    line-height: 1.5 /* Adjust line height for better spacing */
 
 .about-content
   max-width: 800px
@@ -61,6 +61,5 @@ nav
   max-width: 300px /* Adjust image size */
   height: auto /* Maintain aspect ratio */
   margin: 0 20px 0 0 /* Add spacing: top, right, bottom, left */
-
 
 
