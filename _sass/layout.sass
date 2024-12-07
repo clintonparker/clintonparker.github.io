@@ -25,25 +25,68 @@ article header h1
   margin: 0 0 .1em
 
 nav
+  display: flex
+  flex-wrap: wrap
+  align-items: center
+  justify-content: space-between
   margin: .5em -1.2em
 
 nav a
   margin: .5em 1.2em
+  text-decoration: none
+  font-size: 1em
 
-/* Media query for mobile devices */
+.menu-toggle
+  display: none /* Hidden by default, visible on mobile */
+
+.menu-items
+  list-style: none
+  display: flex /* Default for desktop */
+  flex-direction: row
+  margin: 0
+  padding: 0
+
+.menu-items li
+  margin: 0
+
+/* Styles for Mobile Devices */
 @media (max-width: 768px)
   nav
-    display: flex /* Ensures flexible layout */
-    flex-direction: column /* Stacks items vertically */
-    gap: 10px /* Adds space between items */
-    align-items: center /* Centers the menu in the viewport */
+    flex-direction: column /* Stack navigation items vertically */
+    align-items: flex-start /* Align to the left */
+    position: relative
 
-  nav a
-    display: block /* Makes each menu item appear on a new line */
-    padding: 10px 0 /* Adds space between menu items */
-    text-align: center /* Centers the text for better readability */
-    font-size: 1.2em /* Increase font size for readability */
-    line-height: 1.5 /* Adjust line height for better spacing */
+  .menu-toggle
+    display: block /* Show hamburger icon */
+    background: none
+    border: none
+    font-size: 1.5em
+    cursor: pointer
+    margin: 0.5em 0
+
+  .menu-items
+    display: none /* Hide menu items initially */
+    flex-direction: column
+    gap: 10px
+    list-style: none
+    padding: 10px
+    background: #f9f9f9
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1)
+    position: absolute
+    top: 100%
+    left: 0
+    width: 100%
+
+  .menu-items.show
+    display: flex
+
+  .menu-items li
+    margin: 10px 0
+
+  .menu-items a
+    text-align: left
+    font-size: 1.2em
+    padding: 10px 20px /* Add padding for better tap targets */
 
 .about-content
   max-width: 800px
