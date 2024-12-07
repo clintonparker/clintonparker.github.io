@@ -21,5 +21,15 @@ permalink: /projects/
 
   {{ "One of the primary aims of my thesis on Shughni was to synthesize and build upon existing research on Shughni, the majority of which comes from the Soviet period and is available only in Russian or Tajik.  As part of an ongoing effort to connect scholars of the Pamir languages from around the world, I am working to provide English translations of some of the major works on these languages.  These translations not only make the work available in English, but also provide a searchable PDF format.  The first several translations can be found below:" | markdownify }}
 
+  {{ "
+  - The Shughni verb in a historical light (Dodykhudoeva 1988)
+  - On clausal constructions in Iranian languages (Edelman 1974)
+  - On the substratal heritage of the Central Asian Sprachbund 
+  - The category of gender in the Pamir languages, Part I (Karamshoev 1978)
+  - The category of gender in the Pamir languages, Part II (Karamshoev 1986)
+  - Sketches of the phonetic systems of Iranian languages (Sokolova 1953)
+  - Genetic relations between Yazghulami and the Shughni Group (Sokolova 1967)
+    " | markdownify }}
+    
 </div>
 
