@@ -36,6 +36,8 @@ permalink: /projects/
     {{ "This event brought together Indigenous language champions from all over Canada to share their knowledge and experiences with McGill. I was fortunate enough to be a member of the organizing team and to lead the process of writing our task force’s [_Vision Paper_](https://clintonparker.github.io/assets/visionPaper.pdf), which outlines the lessons we learned. I’m proud to say that the university, including the Department of Linguistics, has already taken important steps in implementing these lessons. You can read more about the Symposium [here](https://www.mcgill.ca/dise/mcgill-supporting-indigenous-languages052018), and you can find a manuscript of my qualifying paper on this topic [here](https://clintonparker.github.io/assets/qualifyingPaper.pdf)." | markdownify }}
 
     {{"## Easy Miskito" | markdownify }}
+
+    {{ "While living in Nicaragua from 2013-2015, I worked with the Miskito-speaking community on the country’s Caribbean coast to produce a short YouTube [series](https://www.youtube.com/playlist?list=PLA5UIoabheFMxMQceWAA8-Wm5lv1n8-ap) as part of the Easy Languages channel.  The series provides a platform for Miskito speakers to discuss their language and its importance in the Miskito community." | markdownify }}
     
 </div>
 
