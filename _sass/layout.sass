@@ -30,6 +30,21 @@ nav
 nav a
   margin: .5em 1.2em
 
+@media (max-width: 768px) /* Targets devices with a screen width of 768px or less */
+nav
+  display: flex /* Ensures flexible layout */
+  flex-direction: column /* Stacks items vertically */
+  gap: 10px /* Adds space between items */
+  align-items: center /* Centers the menu in the viewport */
+
+ nav a
+  display: block /* Makes each menu item appear on a new line */
+  padding: 10px 0 /* Adds space between menu items */
+  text-align: center /* Centers the text for better readability */
+  font-size: 1.2em /* Increase font size for readability */
+  line-height: 1.5 /* Adjust line height for better spacing */
+
+
 .about-content
   max-width: 800px
   margin: 0 auto
