@@ -82,14 +82,15 @@ nav a
     flex-direction: column /* Stack text and image vertically */
     gap: 20px /* Add vertical spacing between items */
     width: 100% /* Ensure the layout spans the viewport */
-    align-items: center /* Center-align content for a clean look */
+    align-items: stretch /* Ensure child elements take full width */
 
   .about-photo
     display: block /* Treat the image as a block element */
+    max-width: 300px /* Limit the maximum width */
     width: 100% /* Make the image responsive */
-    max-width: 300px /* Optional: Limit the maximum width */
     height: auto /* Maintain the aspect ratio */
-    margin: 0 auto /* Center the image */
+    margin: 0 auto 20px auto /* Center the image and add spacing below */
+    float: none /* Remove any float behavior */
 
   .menu-toggle
     display: block /* Show toggle button */
@@ -133,8 +134,6 @@ nav a
   &:hover
     background: #e6e6e6 /* Highlight on hover */
     color: #000 /* Darken text */
-
-
 
 .about-content
   max-width: 800px
