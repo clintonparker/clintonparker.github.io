@@ -65,24 +65,23 @@ nav a
     cursor: pointer
     margin: 0.5em 0
 
-.menu-items
-  display: none /* Hide menu items initially */
-  flex-direction: column
-  gap: 10px
-  list-style: none
-  padding: 10px
-  background: #f9f9f9
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1)
-  position: absolute
-  top: 100%
-  left: 0
-  width: 100% /* Ensure it spans the full viewport width */
-  box-sizing: border-box /* Prevent content from overflowing */
-  z-index: 1000 /* Ensure it stays above other elements */
+  .menu-items
+    display: none /* Hide menu items initially */
+    flex-direction: column
+    gap: 10px
+    list-style: none
+    padding: 10px
+    background: #f9f9f9
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1)
+    position: absolute
+    top: 100%
+    left: 0
+    width: 100% /* Ensure it spans the full viewport width */
+    box-sizing: border-box /* Prevent content from overflowing */
+    z-index: 1000 /* Ensure it stays above other elements */
 
-.menu-items.show
-  display: flex /* Show menu items when toggled */
-
+  .menu-items.show
+    display: flex /* Show menu items when toggled */
 
   .menu-items li
     margin: 10px 0
@@ -108,4 +107,3 @@ nav a
   max-width: 300px /* Adjust image size */
   height: auto /* Maintain aspect ratio */
   margin: 0 20px 0 0 /* Add spacing: top, right, bottom, left */
-
