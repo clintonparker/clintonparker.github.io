@@ -13,7 +13,6 @@ show_excerpts: true        # show article excerpts on the home page
 show_frame: true           # adds a gray frame to the site
 show_sidebar: false        # show a sidebar instead of the usual header
 minimal: false             # use a dark header
-show_footer: true
 
 # Menu
 
@@ -24,10 +23,9 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {url: "/Parker_CV.pdf", title: "CV"}
 
 
-# Footer
+external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
+  - {title: "© Clinton Parker 2024. All rights reserved.", icon: none, url: ""}
 
-footer:
-  - title: "© Clinton Parker 2024. All rights reserved."
 
 
 comments:
