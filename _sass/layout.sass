@@ -81,11 +81,11 @@ nav a
   top: 100% /* Align dropdown below the toggle button */
   left: 0 /* Align to the left edge of the viewport */
   right: 0 /* Stretch to the right edge */
-  width: 100% /* Ensure the menu spans the full width of the screen */
+  width: calc(100% - 20px) /* Make it span the viewport width with padding */
+  margin: 0 auto /* Center the menu */
   box-sizing: border-box /* Prevent padding from affecting width */
   z-index: 1000 /* Keep above other content */
   opacity: 1 /* Ensure visibility */
-  overflow-x: hidden /* Prevent horizontal scrolling */
 
 .menu-items.show
   display: flex /* Display menu items when toggled */
@@ -93,8 +93,6 @@ nav a
 .menu-items li
   text-align: center /* Center align each list item */
   padding: 10px 0 /* Vertical padding for better spacing */
-  word-wrap: break-word /* Prevent text from overflowing */
-  white-space: normal /* Allow text to wrap within the container */
   border-bottom: 1px solid #ddd /* Optional: Divider between items */
   &:last-child
     border-bottom: none /* Remove divider for the last item */
@@ -103,12 +101,13 @@ nav a
   color: #333 /* Set text color */
   text-decoration: none /* Remove underline from links */
   font-size: 1.2em /* Adjust for readability */
-  padding: 10px /* Padding for better tap targets */
+  padding: 10px 20px /* Padding for better tap targets */
   display: block /* Ensure each link occupies its own row */
   box-sizing: border-box /* Prevent padding from affecting width */
   &:hover
     background: #e6e6e6 /* Light hover effect */
     color: #000 /* Darken text on hover */
+
 
 
 .about-content
