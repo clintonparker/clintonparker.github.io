@@ -78,17 +78,18 @@ nav a
     position: relative /* Anchor position */
 
   .about-me-layout
-    display: block /* Stack text and image vertically */
-    width: 100% /* Ensure it spans the full width of the viewport */
-    padding: 0 10px /* Add some padding for a clean look */
+    display: flex
+    flex-direction: column /* Stack text and image vertically */
+    gap: 20px /* Add vertical spacing between items */
+    width: 100% /* Ensure the layout spans the viewport */
+    align-items: center /* Center-align content for a clean look */
 
   .about-photo
-    display: block /* Make the image block-level */
-    width: auto /* Scale naturally */
-    max-width: 100% /* Prevent it from overflowing */
-    height: auto /* Maintain aspect ratio */
-    margin: 0 auto 20px auto /* Center it and add spacing below */
-    float: none /* Remove any floating behavior */
+    display: block /* Treat the image as a block element */
+    width: 100% /* Make the image responsive */
+    max-width: 300px /* Optional: Limit the maximum width */
+    height: auto /* Maintain the aspect ratio */
+    margin: 0 auto /* Center the image */
 
   .menu-toggle
     display: block /* Show toggle button */
