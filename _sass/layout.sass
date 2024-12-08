@@ -46,18 +46,19 @@ nav a
   margin: 0
   padding: 0
   gap: 20px /* Add spacing between menu items */
-  opacity: 1 /* Ensure full visibility */
-  box-sizing: border-box /* Prevent overflow from padding */
+  box-sizing: border-box /* Prevent overflow */
+  width: 100% /* Ensure menu width matches the viewport */
+  opacity: 1 /* Ensure visibility */
 
 .menu-items li
   margin: 0
 
-/* Styles for Mobile Devices */
+/* Mobile Styles */
 @media (max-width: 768px)
   nav
     flex-direction: column /* Stack navigation items vertically */
-    align-items: flex-start /* Align to the left */
-    position: relative
+    align-items: center /* Center-align menu for mobile */
+    position: relative /* Anchor the menu */
 
   .menu-toggle
     display: block /* Show hamburger icon */
@@ -76,23 +77,23 @@ nav a
     background: #f9f9f9
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1)
     position: absolute
-    top: 100%
-    left: 0
-    right: 0 /* Ensures the menu spans the width of the screen */
-    width: auto /* Prevents unnecessary overflow */
-    box-sizing: border-box /* Prevent content from overflowing */
+    top: 100% /* Align below the toggle button */
+    left: 0 /* Align with the left edge of the viewport */
+    right: 0 /* Ensure it spans the viewport width */
+    width: 100% /* Fit the screen width */
+    box-sizing: border-box /* Prevent overflow from padding */
     z-index: 1000 /* Ensure it stays above other elements */
-    opacity: 1 /* Ensure the menu is fully visible */
+    opacity: 1 /* Ensure full visibility */
 
   .menu-items.show
     display: flex /* Show menu items when toggled */
 
   .menu-items li
-    margin: 10px 0
+    margin: 10px 0 /* Add space between menu items */
 
   .menu-items a
-    text-align: left
-    font-size: 1.2em
+    text-align: center /* Center-align items for consistency */
+    font-size: 1.2em /* Adjust for readability */
     padding: 10px 20px /* Add padding for better tap targets */
 
 .about-content
@@ -102,7 +103,7 @@ nav a
 
 .about-me-layout
   display: flex /* Side-by-side layout */
-  gap: 20px /* Space between the text and the image */
+  gap: 20px /* Space between text and image */
   margin-bottom: 20px /* Space beneath the section */
   align-items: flex-start /* Align the top of the text and image */
 
