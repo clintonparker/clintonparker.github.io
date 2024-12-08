@@ -70,6 +70,36 @@ nav a
     background: #e6e6e6 /* Highlight on hover */
     color: #000 /* Darken text */
 
+.menu-items a
+  text-align: center
+  color: #fff /* Change text color to white */
+  text-decoration: none
+  font-size: 1em
+  padding: 10px 20px
+  display: block /* Ensure clickable area spans */
+  &:hover
+    background: #e6e6e6 /* Highlight on hover */
+    color: #000 /* Darken text */
+
+.about-content
+  max-width: 800px
+  margin: 0 auto
+  padding: 20px
+
+.about-me-layout
+  display: flex /* Side-by-side layout */
+  gap: 20px /* Space between text and image */
+  margin-bottom: 20px /* Space beneath the section */
+  align-items: flex-start /* Align the top of the text and image */
+
+.about-photo
+  float: left /* Floats the image to the left */
+  max-width: 300px /* Adjust image size */
+  height: auto /* Maintain aspect ratio */
+  margin: 0 20px 0 0 /* Add spacing: top, right, bottom, left */
+
+
+  
 /* Mobile Styles */
 @media (max-width: 768px)
   nav
@@ -124,30 +154,4 @@ nav a
     text-align: left
     margin: 10px 0
 
-.menu-items a
-  text-align: center
-  color: #fff /* Change text color to white */
-  text-decoration: none
-  font-size: 1em
-  padding: 10px 20px
-  display: block /* Ensure clickable area spans */
-  &:hover
-    background: #e6e6e6 /* Highlight on hover */
-    color: #000 /* Darken text */
 
-.about-content
-  max-width: 800px
-  margin: 0 auto
-  padding: 20px
-
-.about-me-layout
-  display: flex /* Side-by-side layout */
-  gap: 20px /* Space between text and image */
-  margin-bottom: 20px /* Space beneath the section */
-  align-items: flex-start /* Align the top of the text and image */
-
-.about-photo
-  float: left /* Floats the image to the left */
-  max-width: 300px /* Adjust image size */
-  height: auto /* Maintain aspect ratio */
-  margin: 0 20px 0 0 /* Add spacing: top, right, bottom, left */
