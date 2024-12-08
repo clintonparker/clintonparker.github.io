@@ -69,33 +69,42 @@ nav a
     cursor: pointer
     margin: 0.5em 0
 
-  .menu-items
-    display: none /* Hide menu items initially */
-    flex-direction: column
-    gap: 10px
-    list-style: none
-    padding: 10px
-    background: #f9f9f9
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1)
-    position: absolute
-    top: 100% /* Align below the toggle button */
-    left: 0 /* Align with the left edge of the viewport */
-    right: 0 /* Ensure it spans the viewport width */
-    width: 100% /* Fit the screen width */
-    box-sizing: border-box /* Prevent overflow from padding */
-    z-index: 1000 /* Ensure it stays above other elements */
-    opacity: 1 /* Ensure full visibility */
+.menu-items
+  list-style: none
+  display: none /* Hide menu items initially */
+  flex-direction: column /* Stack items vertically for mobile */
+  gap: 10px /* Space between menu items */
+  padding: 10px /* Inner padding for the dropdown */
+  background: #f9f9f9 /* Light background for visibility */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) /* Subtle shadow for depth */
+  position: absolute /* Position relative to the parent container */
+  top: 100% /* Align dropdown below the toggle button */
+  left: 0 /* Align to the left edge of the viewport */
+  right: 0 /* Stretch to the right edge */
+  width: 100% /* Span the entire width of the screen */
+  box-sizing: border-box /* Prevent padding from affecting width */
+  z-index: 1000 /* Keep above other content */
+  opacity: 1 /* Ensure visibility */
 
-  .menu-items.show
-    display: flex /* Show menu items when toggled */
+.menu-items.show
+  display: flex /* Display menu items when toggled */
 
-  .menu-items li
-    margin: 10px 0 /* Add space between menu items */
+.menu-items li
+  text-align: center /* Center align each list item */
+  padding: 10px 0 /* Vertical padding for better spacing */
+  border-bottom: 1px solid #ddd /* Optional: Divider between items */
+  &:last-child
+    border-bottom: none /* Remove divider for the last item */
 
-  .menu-items a
-    text-align: center /* Center-align items for consistency */
-    font-size: 1.2em /* Adjust for readability */
-    padding: 10px 20px /* Add padding for better tap targets */
+.menu-items a
+  color: #333 /* Set text color */
+  text-decoration: none /* Remove underline from links */
+  font-size: 1.2em /* Adjust for readability */
+  padding: 10px /* Padding for better tap targets */
+  &:hover
+    background: #e6e6e6 /* Light hover effect */
+    color: #000 /* Darken text on hover */
+
 
 .about-content
   max-width: 800px
