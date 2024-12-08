@@ -77,10 +77,14 @@ nav a
     align-items: flex-start /* Align left */
     position: relative /* Anchor position */
 
+  .about-me-layout
+    display: block /* Stack elements vertically */
+    text-align: center /* Optional: Center-align text and image */
+
   .about-photo
-    display: block /* Forces the image to act like a block-level element */
-    margin: 0 auto /* Centers the image */
-    float: none /* Removes any floating behavior */
+    display: block /* Ensure the image takes up its line */
+    margin: 0 auto 20px auto /* Center the image with space below */
+    float: none /* Remove any floating behavior */
 
   .menu-toggle
     display: block /* Show toggle button */
