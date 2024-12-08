@@ -88,40 +88,40 @@ nav a
     margin: 0.5em 0
 
   .menu-items
-    display: none /* Initially hidden */
-    flex-direction: column
-    gap: 10px
-    list-style: none
-    padding: 10px
-    background: #f9f9f9
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1)
-    position: absolute /* Dropdown relative to toggle */
-    top: 100%
-    left: 0
-    right: 0 /* Ensure full width */
-    width: calc(100% - 20px) /* Fit screen width with padding */
-    margin: 0 auto
-    box-sizing: border-box
-    border: 2px solid red /* Add a red frame for troubleshooting */
-    z-index: 1000
+  list-style: none
+  display: none /* Initially hidden */
+  flex-direction: column
+  gap: 10px /* Space between menu items */
+  padding: 10px /* Inner padding for the dropdown */
+  background: #f9f9f9 /* Light background for visibility */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) /* Subtle shadow for depth */
+  position: absolute /* Dropdown relative to toggle */
+  top: 100% /* Align below the toggle button */
+  left: 0 /* Align with the left edge of the viewport */
+  right: 0 /* Stretch to the right edge */
+  width: auto /* Allow the width to adjust */
+  margin: 0 auto /* Center the menu */
+  box-sizing: border-box /* Prevent padding from affecting width */
+  z-index: 1000 /* Ensure it stays above other content */
+  opacity: 1 /* Ensure visibility */
 
-  .menu-items.show
-    display: flex /* Show menu items when toggled */
+.menu-items.show
+  display: flex /* Show menu items when toggled */
 
-  .menu-items li
-    text-align: left
-    margin: 10px 0
+.menu-items li
+  margin: 0 /* Reset margin for list items */
+  padding: 10px 0 /* Add spacing inside list items */
+  text-align: center /* Center align each item */
 
 .menu-items a
-  text-align: center
-  color: #fff /* Change text color to white */
-  text-decoration: none
-  font-size: 1em
-  padding: 10px 20px
-  display: block /* Ensure clickable area spans */
+  color: #333 /* Text color */
+  text-decoration: none /* Remove underline */
+  display: block /* Make links behave like block elements */
+  padding: 10px 20px /* Add padding to links */
+  box-sizing: border-box /* Prevent overflow from padding */
   &:hover
-    background: #e6e6e6 /* Highlight on hover */
-    color: #000 /* Darken text */
+    background: #e6e6e6 /* Light gray background on hover */
+    color: #000 /* Black text on hover */
 
 
   
