@@ -40,7 +40,7 @@ nav a
 
 /* General Menu Styles */
 .menu-toggle
-  display: none /* Hidden by default */
+  display: none /* Default is hidden on desktop */
   background: none
   border: none
   font-size: 1.5em
@@ -49,71 +49,75 @@ nav a
 
 .menu-items
   list-style: none
-  display: flex /* Default for desktop */
+  display: flex /* Visible on desktop */
   flex-direction: row
-  gap: 20px /* Space between menu items */
+  gap: 20px /* Space between items */
   margin: 0
   padding: 0
   box-sizing: border-box /* Prevent overflow */
-  width: auto /* Adjusts automatically */
+  width: auto /* Adjust width automatically */
   opacity: 1 /* Ensure visibility */
 
 .menu-items li
   margin: 0
 
 .menu-items a
-  text-align: center /* Center-align menu text */
-  color: #333 /* Menu text color */
-  text-decoration: none /* No underline */
+  text-align: center
+  color: #333 /* Text color */
+  text-decoration: none
   font-size: 1em
-  padding: 10px 20px /* Padding for better clickability */
-  display: block /* Each link as a block */
-  background: transparent /* Ensure no background on desktop */
+  padding: 10px 20px
+  display: block /* Ensure clickable area spans */
   &:hover
-    background: #e6e6e6 /* Light hover effect */
-    color: #000 /* Darken text on hover */
+    background: #e6e6e6 /* Highlight on hover */
+    color: #000 /* Darken text */
 
 /* Mobile Styles */
 @media (max-width: 768px)
   nav
-    flex-direction: column /* Stack navigation items vertically */
-    align-items: flex-start /* Align to the left */
-    position: relative /* Anchor the menu */
+    flex-direction: column /* Stack items vertically */
+    align-items: flex-start /* Align left */
+    position: relative /* Anchor position */
 
   .menu-toggle
-    display: block /* Show hamburger icon on mobile */
+    display: block /* Show toggle button */
+    background: none
+    border: none
+    font-size: 1.5em
+    cursor: pointer
+    margin: 0.5em 0
 
   .menu-items
-    display: none /* Hidden by default on mobile */
-    flex-direction: column /* Stack items vertically */
-    gap: 10px /* Space between menu items */
+    display: none /* Initially hidden */
+    flex-direction: column
+    gap: 10px
     list-style: none
-    padding: 10px /* Padding for dropdown */
-    background: #f9f9f9 /* Light background for visibility */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) /* Subtle shadow for depth */
-    position: absolute /* Dropdown relative to toggle button */
-    top: 100% /* Align dropdown below the toggle button */
-    left: 0 /* Align to the left edge */
-    right: 0 /* Stretch to the right edge */
-    width: 100% /* Fully span the viewport */
-    box-sizing: border-box /* Prevent padding from affecting width */
-    z-index: 1000 /* Ensure it appears above other elements */
+    padding: 10px
+    background: #f9f9f9
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1)
+    position: absolute /* Dropdown relative to toggle */
+    top: 100%
+    left: 0
+    right: 0 /* Ensure full width */
+    width: calc(100% - 20px) /* Fit screen width with padding */
+    margin: 0 auto
+    box-sizing: border-box
+    z-index: 1000
 
   .menu-items.show
     display: flex /* Show menu items when toggled */
 
   .menu-items li
-    text-align: center /* Center-align items */
-    margin: 10px 0 /* Space between items */
+    text-align: left
+    margin: 10px 0
 
   .menu-items a
-    text-align: left /* Align text for consistency */
-    font-size: 1.2em /* Adjust readability */
-    padding: 10px 20px /* Padding for tap targets */
-    background: #fff /* White background for better contrast */
+    text-align: left
+    font-size: 1.2em
+    padding: 10px 20px
     &:hover
-      background: #e6e6e6 /* Hover feedback */
-      color: #000 /* Darken text on hover */
+      background: #e6e6e6
+      color: #000
 
   
 
