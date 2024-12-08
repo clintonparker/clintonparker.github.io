@@ -45,6 +45,7 @@ nav a
   flex-direction: row
   margin: 0
   padding: 0
+  gap: 20px /* Add spacing between menu items */
 
 .menu-items li
   margin: 0
@@ -64,21 +65,20 @@ nav a
     cursor: pointer
     margin: 0.5em 0
 
-.menu-items
-  display: none /* Hide menu items initially */
-  flex-direction: column
-  gap: 10px
-  list-style: none
-  padding: 10px
-  background: #f9f9f9
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1)
-  position: absolute
-  top: 100%
-  left: 0
-  right: 0 /* Ensures the menu spans the width of the screen */
-  width: 100% /* Prevents the menu from extending beyond the viewport */
-  z-index: 1000 /* Ensures the menu is above other elements */
-
+  .menu-items
+    display: none /* Hide menu items initially */
+    flex-direction: column
+    gap: 10px
+    list-style: none
+    padding: 10px
+    background: #f9f9f9
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1)
+    position: absolute
+    top: 100%
+    left: 0
+    right: 0 /* Ensures the menu spans the width of the screen */
+    width: 100% /* Prevents the menu from extending beyond the viewport */
+    z-index: 1000 /* Ensures the menu is above other elements */
 
   .menu-items.show
     display: flex /* Show menu items when toggled */
@@ -107,3 +107,4 @@ nav a
   max-width: 300px /* Adjust image size */
   height: auto /* Maintain aspect ratio */
   margin: 0 20px 0 0 /* Add spacing: top, right, bottom, left */
+
